@@ -149,17 +149,42 @@
   font-family: Montserrat, sans-serif;
   color: #C4C4C4;
   text-align: center;
+  margin-bottom: 20px;
   
 
  }
  span.stretch {
   display: inline-block;
-  margin: 35px;
- 
+  margin: 25px;
+  font-size: medium;
   -moz-transform: scale(2, 1);
   -o-transform: scale(2, 1);
-  transform: scale(1.2, 1);
+  transform: scale(1.1, 1);
 }
  
+
+.info-section {
+  padding: 20px;
+  text-align: center;
+ }
+html{
+overflow-y: scroll;
+}
+.image-table {
+  margin-left: 60px; /* Margin from the left */
+  border-collapse: separate; /* Allows space between table cells */
+  border-spacing: 20px; /* Space between cells */
+}
+.table-cell img{
+    size:20px;
+    padding:20px;
+    
+
+}
+
+
+
+
+
  
  
