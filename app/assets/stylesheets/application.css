@@ -1,0 +1,165 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .btn-pill {
+    border-radius: 26px;
+    font-weight:400;
+    font-family: Montserrat, sans-serif;
+    background-color: #1F94AA;
+    border: none; 
+    color: white; 
+    padding: 0.5rem 2rem; 
+    height: 40px;
+    width: 130px;
+    
+
+  }
+
+  .nav-ele {
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    /* line-height: 19.5px; */
+    font-family: Montserrat, sans-serif;
+    
+  }
+  .centered_image img {
+    position: absolute; 
+     top: 50%; 
+     left: calc(60% + 90px);
+     transform: translate(-50%, -50%); 
+     z-index: 2; 
+     text-align: center; 
+     width: 700px;
+     height: 800px;
+ }
+ .centered_right_image img {
+    position: absolute;
+     top: 35%; 
+     left: calc(75% + 90px);
+     transform: translate(-50%, -50%); 
+     z-index: 2; 
+     text-align: center;
+     width: 150px;
+     height: 130px;
+ }
+ .centered_left_image img {
+    position: absolute; 
+     top:20%; 
+     left: calc(55%);
+     transform: translate(-50%, -50%); 
+     z-index: 2; 
+     text-align: center; 
+     width: 80px;
+     height: 70px;
+ }
+ .stars img{
+     position: absolute; 
+     top:30%; 
+     left: calc(20%);
+     transform: translate(-50%, -50%); 
+     z-index: 2; 
+     text-align: center; 
+     width: 120px;
+     height: 20px;
+ 
+ }
+ .hello_text {
+   position: absolute;
+   top: 28.5%; 
+   left: calc(24.5%); 
+   transform: translateX(10px); 
+   z-index: 3; 
+   font-size: 1rpx; 
+   font-family: Montserrat, sans-serif;
+   color: #10434F; 
+   width:259px;
+   font-weight:600;
+   
+ }
+ .track_text {
+   position: absolute;
+   top: calc(30% + 40px);
+   left: 30.5%;
+   font-weight:700;
+   transform: translateX(-50%);
+   z-index: 2;
+   font-size: 48px;
+   font-family: Montserrat, sans-serif;
+   color: #10434F;
+   text-align: center;
+   width: auto;
+   
+ }
+ .details_text {
+   position: absolute;
+   top: calc(63%); 
+   left: 28%;
+   transform: translateX(-50%);
+   z-index: 1;
+   font-size: 16px;
+   line-height: 26px;
+   font-family: Montserrat, sans-serif;
+   color: #10434F;
+   text-align: center;
+   width: auto;
+ }
+ .pill_button {
+  border-radius: 26px;
+     font-weight:400;
+     background-color: #1F94AA;
+     border: none; 
+     color: white; 
+     padding: 0.5rem 2.5rem; 
+     height: 50px;
+     position: absolute;
+     top: calc(75%); 
+     left: 27%;
+     transform: translateX(-50%);
+     z-index: 1;
+     font-size: 16px;
+     font-weight:600px;
+     line-height: 26px;
+     text-align: center;
+     width: 248px;
+   
+ }
+
+ .bottom_text{
+  position: absolute;
+  top: calc(90%);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  height: 26px;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: Montserrat, sans-serif;
+  color: #C4C4C4;
+  text-align: center;
+  
+
+ }
+ span.stretch {
+  display: inline-block;
+  margin: 35px;
+ 
+  -moz-transform: scale(2, 1);
+  -o-transform: scale(2, 1);
+  transform: scale(1.2, 1);
+}
+ 
+ 
+ 
