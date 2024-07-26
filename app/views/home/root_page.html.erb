@@ -1,4 +1,142 @@
 <%= render 'layouts/navigation' %>
 <%= render 'layouts/home' %>
 
+<div class="centered-content" style="padding-top:50px;">
+    <table>
+        <tr>
+            <td>
+                <h2 class="only_fertility_text">The only fertility kit 
+                you will <br> &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp ever need</h2>
+            </td>
+        </tr>
+        <tr>
+            <td class="most_ovulation_text">
+                <p>Most ovulation tests predict your fertile days by tracking Estrogen and <br>
+                Luteinizing Hormone (LH), but fail to measure the hormone that <br>
+                actually confirms your ovulation and supports pregnancy: <br> <strong><span style="font-weight:600;">
+                Progesterone.</span></strong></p>
+            </td>
+        </tr>     
+        <tr>
+            <td class="inito_different_text ">
+                <p>What makes Inito different?</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="inito_different_answer_text ">
+                <p>Inito is the only fertility monitor that measures all <strong> 4 hormones </strong> 
+                on a <br> <strong>single test strip </strong>, showing you a full picture of your cycles with results <br> 
+                 &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbspunique to your body.</p>
+            </td>
+        </tr>    
+    </table>    
+</div> 
 
+<div class="second_page_bg">
+    <img src="<%= image_path('second_page_bg.png') %>" alt="Background Image" class="background-image">
+    <div class="rectangle-container">
+       <img src="<%= image_path('ovulation_confirmed_iphone.png') %>" alt="iPhone with Inito" class="ovulation_confirmed_iphone">                      
+       <div class="xyz">
+         <h4 class="predict"> <span class="stretch2"> Predict and confirm</span></h4> 
+         <h4 class="predict"> <span class="stretch2">your ovulation with</span></h4> 
+         <h4 class="predict"> <span class="stretch2"> actual data</span></h4> 
+       </div> 
+       <div class="xyz2">
+         <p><span class="stretc2">Unlike most ovulation tests that only give you "yes/no" results,<br> Inito provides <strong>real numerical values </strong>of your fertility<br> hormones.<br><br>
+If you have irregular cycles, actual data is necessary to know <br> exactly when you ovulate, and when is the best time to try to <br> conceive.<span></p>
+       </div>  
+    </div>
+</div>    
+
+<style>
+.centered-content {
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+}
+.only_fertility_text {
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.most_ovulation_text {
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}  
+.inito_different_text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 80px;
+}
+.inito_different_answer_text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.second_page_bg {
+    position: relative; 
+    width: 1089px;
+    height: 1020px; 
+    margin-left: 210px;
+    margin-top: 10px;
+    padding: 0;
+    padding-top: 80px; 
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rectangle-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.rectangle-image {
+    display: block;
+   
+    height: auto; 
+    background-color: #B4E4F2;
+}
+.ovulation_confirmed_iphone {
+    position:relative;
+    left: 30px;
+    top:180px;
+    transform: translate(-70%, -30%); 
+    z-index: 3;
+    padding-left:90px;
+}
+.predict {
+    top: 10px;
+    font-weight:700;
+    font-size:36px;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+}
+.xyz{
+transform: translate(40%, -260%); 
+margin-left:150px;
+position:relative;
+
+}
+.xyz2{
+transform: translate(40%, -230%); 
+margin-left:110px;
+font-size:15px;
+font-weight:500;
+line-height:20px;
+font-family: Montserrat, sans-serif;
+color:#112D35;
+}
+span.stretch2 {
+  display: inline-block;
+  -moz-transform: scale(2, 1);
+  -o-transform: scale(2, 1);
+  transform: scale(1.2, 1);
+}
+</style>
