@@ -13,178 +13,396 @@
  *= require_tree .
  *= require_self
  */
- .btn-pill {
-    border-radius: 26px;
-    font-weight:400;
-    font-family: Montserrat, sans-serif;
-    background-color: #1F94AA;
-    border: none; 
-    color: white; 
-    padding: 0.5rem 2rem; 
-    height: 40px;
-    width: 130px;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  padding-top: 6rem;
+}
+.apple_store {
+  
     
+}
+.text14{
+font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:15px;
+color: rgba(17, 45, 53, 1);
 
-  }
 
-  .nav-ele {
-    font-weight: 600;
-    font-size: 16px;
-    align-items: center;
-    /* line-height: 19.5px; */
-    font-family: Montserrat, sans-serif;
-    
-  }
-  .centered_image img {
-    position: absolute; 
-     top: 50%; 
-     left: calc(60% + 90px);
-     transform: translate(-50%, -50%); 
-     z-index: 2; 
-     text-align: center; 
-     width: 700px;
-     height: 800px;
- }
- .centered_right_image img {
-    position: absolute;
-     top: 35%; 
-     left: calc(75% + 90px);
-     transform: translate(-50%, -50%); 
-     z-index: 2; 
-     text-align: center;
-     width: 150px;
-     height: 130px;
- }
- .centered_left_image img {
-    position: absolute; 
-     top:20%; 
-     left: calc(55%);
-     transform: translate(-50%, -50%); 
-     z-index: 2; 
-     text-align: center; 
-     width: 80px;
-     height: 70px;
- }
- .stars img{
-     position: absolute; 
-     top:30%; 
-     left: calc(20%);
-     transform: translate(-50%, -50%); 
-     z-index: 2; 
-     text-align: center; 
-     width: 120px;
-     height: 20px;
- 
- }
- .hello_text {
-   position: absolute;
-   top: 28.5%; 
-   left: calc(24.5%); 
-   transform: translateX(10px); 
-   z-index: 3; 
-   font-size: 1rpx; 
-   font-family: Montserrat, sans-serif;
-   color: #10434F; 
-   width:259px;
-   font-weight:600;
-   
- }
- .track_text {
-   position: absolute;
-   top: calc(30% + 40px);
-   left: 30.5%;
-   font-weight:700;
-   transform: translateX(-50%);
-   z-index: 2;
-   font-size: 48px;
-   font-family: Montserrat, sans-serif;
-   color: #10434F;
-   text-align: center;
-   width: auto;
-   
- }
- .details_text {
-   position: absolute;
-   top: calc(63%); 
-   left: 28%;
-   transform: translateX(-50%);
-   z-index: 1;
-   font-size: 16px;
-   line-height: 26px;
-   font-family: Montserrat, sans-serif;
-   color: #10434F;
-   text-align: center;
-   width: auto;
- }
- .pill_button {
-  border-radius: 26px;
-     font-weight:400;
-     background-color: #1F94AA;
-     border: none; 
-     color: white; 
-     padding: 0.5rem 2.5rem; 
-     height: 50px;
-     position: absolute;
-     top: calc(75%); 
-     left: 27%;
-     transform: translateX(-50%);
-     z-index: 1;
-     font-size: 16px;
-     font-weight:600px;
-     line-height: 26px;
-     text-align: center;
-     width: 248px;
-   
- }
+}
+.text15{
+  font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:15px;
+color: rgba(17, 45, 53, 1);
+  
+}
+.text16{
+  font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:15px;
+color: rgba(17, 45, 53, 1);
+  
+}
+.text17{
+  font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:15px;
+color: rgba(17, 45, 53, 1);
+  
+}
+.guide_numbers_half1{
+  display:flex;
+  align-items:center;
+  width:70%;
+  gap:1rem;
+  
+}
+.guide_numbers_half2{
+  display:flex;
+  align-items:center;
+  width:70%;
+  gap:1rem;
+}
+.text11{
+  
+font-family: "Montserrat", sans-serif;
+font-weight:700;
+font-size:36px;
+}
+.text12{
 
- .bottom_text{
-  position: absolute;
-  top: calc(90%);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  height: 26px;
-  font-weight: 600;
-  font-size: 17px;
-  font-family: Montserrat, sans-serif;
-  color: #C4C4C4;
+  font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:15px;
+}
+.text13{
+  
+  font-family: "Montserrat", sans-serif;
+font-weight:500;
+font-size:12px;
+color: rgba(160, 171, 174, 1);
+
+}
+.half4 {
+display: flex;
+width:100%;
+justify-content:center;
+align-items:center;
+margin-bottom:2rem;
+gap:4rem;
+margin-left:11%;
+
+}
+.text-component4{
+width:30%;
+margin-left:auto;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+gap:2rem;
+}
+.guide {
+  display:flex;
+  flex-direction:column;
+  gap:3rem;
+}
+.guide_video1{
+  display:flex;
+  gap:3rem;
+}
+.guide_video2{
+  display:flex;
+  gap:3rem;
+}
+
+.guide_1{
+
+}
+.guide_2{
+  
+}
+.guide_3{
+  
+}
+.guide_4{
+  
+}
+.text7 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  font-size:36px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
+  
+ }
+ .text8 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:400;
+  font-size:15px;
+  text-align: center;
+  margin-bottom: 2rem;
+  
+ }
+ .text9 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  font-size:26px;
+  margin-bottom: 1rem;
+  text-align: center;
+  
+ }
+ .text10 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:400;
+  font-size:16px;
+  text-align: center;
+  margin-bottom: 3rem;
+  
+ }
+.text-component3{
+  width:35%;
+  margin-left:auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.as_seen_on {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  font-size: 17px;
+  color: rgba(196, 196, 196, 1);
+
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_base{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  margin-bottom:5rem;
+  
+  
+}
+.magazines{
+  display:flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.iphone_with_ovulation{
+  width:45%;
+}
+
+.stars-div{
+display:flex;
+gap:1rem;
+align-items: center;;
+}
+.stars-text{
+  
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    font-size:15px;
+  
+}
+.text5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  font-size:48px;
+  
+ }
+ .text6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:20px;
+ }
+.text-component2{
+  width:40%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1.5rem;
+ }
+ .home_bg_image {
+  position:absolute;
+  width:100vw;
+  z-index:-1;
+  transform: translateY(-10rem);
+ }
+.half3{
+  display: flex;
+  width:100%;
+  justify-content:center;
+  gap:2rem;
+  margin-bottom:2rem;
+  position:relative;
+}
+ .tick_class{
+  width:1rem;
+}
+.text_tick{
+  display:flex;
+  gap:5px;
+}
+ .text1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  font-size:36px;
+  
+ }
+ .text2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:15px;
+ }
+ .text3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:15px;
+ }
+ .text4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:15px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+ }
+ .text-component{
+  width:40%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+.rectangle {
+  width:70rem;
+  margin-bottom: 2%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgba(180, 228, 242, 0.45);
+  border-radius: 1.5rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:1.5rem;
+}
+.half1 {
+  display: flex;
+  width:100%;
+  justify-content:center;
+  gap:2rem;
+  margin-bottom:2rem;
+  
+}
+.half2 {
+  display: flex;
+  width:100%;
+  justify-content:center;
+  gap:2rem;
+  margin-bottom:2rem;
+ 
+}
+.ovulation_confirmed {
+  background-color:  rgba(180, 228, 242, 1);
+  border-radius: 1rem; 
+  width:45%;
+}
+.chart_second_page {
+  width:45%;
+}
+
+.magazine-class{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content:center;
+}
+.magazine {
+  margin:15px;
   
 
- }
- span.stretch {
-  display: inline-block;
-  margin: 25px;
-  font-size: medium;
-  -moz-transform: scale(2, 1);
-  -o-transform: scale(2, 1);
-  transform: scale(1.1, 1);
+} 
+.btn-pill {
+  border-radius: 26px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  background-color: #1F94AA;
+  border: none;
+  color: white;
+  height: 40px;
+  width: fit-content;
+  padding: 15px 25px;
+  font-size: 14px;
+  line-height: 12px;
 }
+
+@media screen and (max-width:1148px){
+  .rectangle {
+    width:90%;
+  }
+  .text-component3{
+    width:60%;
+  }
+}
+
+@media screen and (max-width:1025px){
+  .text1 {
+    font-size:24px;
+   }
+   .text2 .text3 .text4{
+    font-size:10px;
+   }
+   .text-component{
+    width:50%;
+   }
+}
+@media screen and (max-width:765px){
+  .half1  {
+    flex-wrap: wrap-reverse;
+  }
+  .half2 {
+    flex-wrap: wrap;
+  }
+  .text-component{
+    width:80%;
+    gap:1.5rem;
+   }
+   .ovulation_confirmed {
+    width:70%;
+  }
+  .chart_second_page {
+    width:70%;
+  }
+  .rectangle {
+    width:100%;
+    background-color: white;
+    padding:0px;
+  }
+  .half1 {
+    background-color: #B4E4F2;
+  }
+  .text-component3 {
+    width: 80%;
+  }
+  .half3{
+    flex-wrap: wrap;
+  }
+  .iphone_with_ovulation{
+    width:80%;
+  }
+  .text-component2 {
+    width: 80%;
+  }
  
-
-.info-section {
-  padding: 20px;
-  text-align: center;
- }
-html{
-overflow-y: scroll;
 }
-.image-table {
-  margin-left: 60px; /* Margin from the left */
-  border-collapse: separate; /* Allows space between table cells */
-  border-spacing: 20px; /* Space between cells */
-}
-.table-cell img{
-    size:20px;
-    padding:20px;
-    
-
-}
-
-
-
-
-
- 
- 
