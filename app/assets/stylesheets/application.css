@@ -16,6 +16,40 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   padding-top: 6rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.review_parent_box{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin-left:11%;
+}
+.review_box{
+ 
+  width:66%;
+margin-bottom: 2%;
+margin-left:auto;
+margin-right:auto;
+background-color: rgba(247, 247, 254, 1);
+border-radius: 1.5rem;
+display:flex;
+flex-direction: column;
+justify-content: center;
+gap:1rem;
+padding:1.5rem;
+}
+.review_stars{
+  width:10%;
+}
+.text18{
+font-weight: 500;
+font-family: Montserrat, sans-serif;
+}
+.review_buttons{
+  float:center;
+  width:5%;
 }
 .apple_store {
   
@@ -91,6 +125,7 @@ align-items:center;
 margin-bottom:2rem;
 gap:4rem;
 margin-left:11%;
+margin-bottom:6%;
 
 }
 .text-component4{
