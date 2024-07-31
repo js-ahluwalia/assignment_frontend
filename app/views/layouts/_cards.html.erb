@@ -66,7 +66,12 @@
     </div>
     <div class="rectangle_third_card">
         <div class="iphone_test_required">
-          <img style="width: 100%;" src="assets/iphone_test_required.png" alt="The Week"/>
+          <img class="fixed-image" style="width: 100%;" src="assets/iphone_test_required.png" alt="The Week"/>
+          <img class="sliding-image" src="assets/slide_high_fertility.png" alt="Image1"/>
+          <img class="sliding-image" src="assets/slide_low_fertility.png" alt="Image 2"/>
+          <img class="sliding-image" src="assets/slide_ovulation_confirmed.png" alt="Image 2"/>
+          <img class="sliding-image" src="assets/slide_peak_fertility.png" alt="Image 2"/>
+          
         </div>
         <div class="third_card_text_box">
         <div class="third_card_heading">
@@ -104,6 +109,59 @@
 
 
 <style>
+  .fixed-image {
+    width: 100%;
+}
+
+.sliding-image {
+    position: absolute;
+    width: 50%;
+    margin-top:6rem;
+    top: 0;
+    left: 0;
+    animation: slideOver 8s infinite;
+}
+
+@keyframes slideOver {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+/* Stagger the animations for the images */
+.sliding-image:nth-child(2) {
+    animation-delay: 0s;
+}
+
+.sliding-image:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.sliding-image:nth-child(4) {
+    animation-delay: 4s;
+}
+
+.sliding-image:nth-child(5) {
+    animation-delay: 6s;
+}
+
   
     .first_card_image{
         width:7rem;
@@ -524,6 +582,7 @@
 
   }
   .iphone_test_required {
+    position:relative;
     width: 100%;
   }
   .third_card_heading {
@@ -536,8 +595,17 @@
     .btn-pill-3{
       display:none;
     }
+    .sliding-image {
+    position: absolute;
+    width: 90%;
+    margin-top:25%;
+    top: 0;
+    left: 0;
+    animation: slideOver 8s infinite;
+}
 
     
   }
+  
 
 </style>    
