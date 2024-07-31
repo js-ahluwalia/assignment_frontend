@@ -1,14 +1,15 @@
 <div class="rectangle_third_card">
     <div class="iphone_high_fertility">
       <img
-        src="assets/iphone_test_required.png"
+        style="width: 100%;"
+        src="assets/iphone_high_fertility.png"
         alt="The Week"
       />
     </div>
     <div class="third_card_text_box">
       <div class="third_card_heading">
         Inito tracks everything
-so you don’t have to
+        so you don’t have to
 
       </div>
       <div class="third_card_para1">
@@ -27,7 +28,7 @@ so you don’t have to
       </div>
       <button
         type="button"
-        class="btn btn-primary btn-pill"
+        class="btn btn-primary btn-pill btn-pill-3"
         style="font-weight: 600"
       >
         Get the Inito Kit
@@ -38,8 +39,10 @@ so you don’t have to
 
     <style>
     .iphone_high_fertility{
-      width:100%;
-      margin-left:5%;
+       width: 50%;
+       padding:2rem;
+       padding-bottom:0;
+
     }
         .
         .third_card_para3{
@@ -71,25 +74,83 @@ so you don’t have to
 
         }
         .third_card_text_box{
-            display:flex;
-            flex-direction:column;
-            width:100%;
-            gap:2rem;
+            display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    width: 50%;
+    gap: 2rem;
 
         }
         .rectangle_third_card{
-        width:55%;
-        margin-bottom: 2%;
-        margin-left:auto;
-        margin-right:auto;
-        background-color: rgba(255, 255, 255, 1);
-        justify-content:center;
-        border-radius: 1.5rem;
-        display:flex;
-        padding:1.5rem;
-        gap:1rem;
-        align-items:center;
-        margin-bottom:10%;
+        width: 60rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    border-radius: 1.5rem;
+    display: flex;
+
+    gap: 1rem;
+    align-items: center;
         
         }
+         @media screen and (max-width: 1025px) {
+    .rectangle_third_card {
+      width: auto;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .third_card_text_box {
+      padding: 1rem;
+    }
+    .third_card_heading {
+      font-size: 24px;
+    }
+    .third_card_para1 .third_card_para2 .third_card_para3 {
+      font-size: 12px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 900px) {
+    .rectangle_third_card {
+      width: auto;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    .rectangle_third_card {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      flex-wrap:wrap-reverse;
+      box-shadow:0 0 #000;
+    }
+    .third_card_text_box {
+   padding:3rem;
+    width: 100%;
+
+  }
+  .iphone_high_fertility {
+    width: 100%;
+  }
+  .third_card_heading {
+      font-size: 30px;
+    }
+    .third_card_para1 .third_card_para2 .third_card_para3 {
+      font-size: 15px;
+    }
+
+    .btn-pill-3{
+      display:none;
+    }
+
+    
+  }
     </style>    

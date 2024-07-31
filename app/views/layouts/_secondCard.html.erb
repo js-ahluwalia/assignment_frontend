@@ -1,66 +1,157 @@
+<div class="why_inito_smart">
+  Why Inito is the smarter <br/> way to get pregnant
+</div>  
 <div class="rectangle_second_card">
-    <div class="second_card_text_box">
-      <div class="second_card_text_heading">
-        Get charts and actual values of your hormones
-      </div>
-      <div class="second_card_text_half1">
-        Actual numerical values are necessary to know whether your PdG levels are sufficient enough to support a healthy pregnancy.
-      </div>
-      <div class="second_card_text_half2">
-        Studies show that PdG levels lower than 7.9ng/ml in serum (around 10ug/ml PdG) 6-8 days after ovulation are associated with lower pregnancy outcomes.
-      </div>
+  <div class="second_card_text_box">
+    <div class="second_card_text_heading">
+      Get charts and actual values of your hormones
     </div>
-    <div class="chart_hormones">
-      <img  src="assets/chart_hormones.png" alt="The Week"/>
+    <div class="second_card_text_half1">
+      Actual numerical values are necessary to know whether your PdG levels are
+      sufficient enough to support a healthy pregnancy.
     </div>
+    <div class="second_card_text_half2">
+      Studies show that PdG levels lower than 7.9ng/ml in serum (around 10ug/ml
+      PdG) 6-8 days after ovulation are associated with lower pregnancy
+      outcomes.
+    </div>
+    <button
+        type="button"
+        class="btn btn-primary btn-pill btn-pill-2"
+        style="font-weight: 600"
+      >
+        Get the Inito Kit
+      </button>
   </div>
+  <div class="chart_hormones">
+    <img style="width: 100%;" src="assets/chart_hormones.png" alt="The Week" />
+  </div>
+</div>
 
+<style>
+  .why_inito_smart{
+    color: rgba(17, 45, 53, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-bottom:2rem;
 
+  }
+  .btn-pill-2{
+    display:none;
+  }
+  .second_card_text_heading {
+    color: rgba(17, 45, 53, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .second_card_text_half1 {
+    color: rgba(17, 45, 53, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
 
-  <style>
-    .second_card_text_heading{
-        color: rgba(17, 45, 53, 1);
-        font-family: "Montserrat", sans-serif;
-        font-weight:700;
-        font-size:30px;
+  .second_card_text_half2 {
+    color: rgba(17, 45, 53, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .second_card_text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    width: 50%;
+    gap: 2rem;
+  }
+  .rectangle_second_card {
+    width: 60rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    border-radius: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .chart_hormones {
+    width: 50%;
+  }
+  @media screen and (max-width: 1025px) {
+    .rectangle_second_card {
+      width: auto;
+      margin-left: 5rem;
+      margin-right: 5rem;
     }
-    .second_card_text_half1{
-        color: rgba(17, 45, 53, 1);
-        font-family: "Montserrat", sans-serif;
-        font-weight:500;
-        font-size:15px;
-
+    .second_card_text_box {
+      padding: 1rem;
+    }
+    .second_card_text_heading {
+      font-size: 24px;
+    }
+    .second_card_text_half1 {
+      font-size: 12px;
     }
 
-    .second_card_text_half1{
-        color: rgba(17, 45, 53, 1);
-        font-family: "Montserrat", sans-serif;
-        font-weight:500;
-        font-size:15px;
+    .second_card_text_half2 {
+      font-size: 12px;
     }
-    .second_card_text_box{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        width:50%;
-        gap:2rem;
+    .why_inito_smart{
+      font-size:30px;
     }
-    .rectangle_second_card{
-        width:50%;
-        margin-bottom: 2%;
-        margin-left:auto;
-        margin-right:auto;
-        background-color: rgba(255, 255, 255, 1);
-        justify-content:center;
-        border-radius: 1.5rem;
-        display:flex;
-        padding:1.5rem;
-        gap:1rem;
-        align-items:center;
+  }
 
+  @media screen and (max-width: 900px) {
+    .rectangle_second_card {
+      width: auto;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
-    .chart_hormones {
-        width:50%;
+  }
+  @media screen and (max-width: 770px) {
+    .rectangle_second_card {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      flex-wrap:wrap;
+      box-shadow:0 0 #000;
+    }
+    .second_card_text_box {
+   padding:3rem;
+    width: 100%;
 
+  }
+  .chart_hormones {
+    width: 100%;
+  }
+  .second_card_text_heading {
+      font-size: 30px;
     }
-  </style> 
+    .second_card_text_half1 {
+      font-size: 15px;
+    }
+
+    .second_card_text_half2 {
+      font-size: 15px;
+    }
+    .btn-pill-2{
+    display:block;
+  }
+  .why_inito_smart{
+      display:none;
+    }
+    
+  }
+</style>

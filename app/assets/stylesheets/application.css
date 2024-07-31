@@ -24,14 +24,13 @@ body {
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  margin-left:11%;
+  margin-bottom: 5%;
+  
 }
 .review_box{
  
   width:66%;
 margin-bottom: 2%;
-margin-left:auto;
-margin-right:auto;
 background-color: rgba(247, 247, 254, 1);
 border-radius: 1.5rem;
 display:flex;
@@ -39,18 +38,16 @@ flex-direction: column;
 justify-content: center;
 gap:1rem;
 padding:1.5rem;
+
 }
 .review_stars{
-  width:10%;
+  width:6rem;
 }
-.text18{
+.review_text{
 font-weight: 500;
 font-family: Montserrat, sans-serif;
 }
-.review_buttons{
-  float:center;
-  width:5%;
-}
+
 .apple_store {
   
     
@@ -119,17 +116,16 @@ color: rgba(160, 171, 174, 1);
 }
 .half4 {
 display: flex;
-width:100%;
+width:65rem;
 justify-content:center;
 align-items:center;
+margin-right:auto;
 margin-bottom:2rem;
 gap:4rem;
-margin-left:11%;
-margin-bottom:6%;
-
+margin-left:auto;
 }
 .text-component4{
-width:30%;
+width:45%;
 margin-left:auto;
 display:flex;
 flex-direction: column;
@@ -137,6 +133,7 @@ justify-content: space-between;
 gap:2rem;
 }
 .guide {
+  width:45%;
   display:flex;
   flex-direction:column;
   gap:3rem;
@@ -162,14 +159,7 @@ gap:2rem;
 .guide_4{
   
 }
-.text7 {
-  font-family: "Montserrat", sans-serif;
-  font-weight:700;
-  font-size:36px;
-  text-align: center;
-  margin-bottom: 1rem;
-  
- }
+
  .text8 {
   font-family: "Montserrat", sans-serif;
   font-weight:400;
@@ -288,12 +278,7 @@ align-items: center;;
   display:flex;
   gap:5px;
 }
- .text1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight:700;
-  font-size:36px;
-  
- }
+ 
  .text2 {
   font-family: "Montserrat", sans-serif;
   font-weight:500;
@@ -383,6 +368,7 @@ align-items: center;;
 }
 
 @media screen and (max-width:1148px){
+  
   .rectangle {
     width:90%;
   }
@@ -401,6 +387,7 @@ align-items: center;;
    .text-component{
     width:50%;
    }
+   
 }
 @media screen and (max-width:765px){
   .half1  {
