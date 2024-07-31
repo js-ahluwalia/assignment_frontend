@@ -19,6 +19,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 .review_parent_box{
   display:flex;
   flex-direction: column;
@@ -124,14 +125,7 @@ margin-bottom:2rem;
 gap:4rem;
 margin-left:auto;
 }
-.text-component4{
-width:45%;
-margin-left:auto;
-display:flex;
-flex-direction: column;
-justify-content: space-between;
-gap:2rem;
-}
+
 .guide {
   width:45%;
   display:flex;

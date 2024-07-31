@@ -113,31 +113,121 @@
     </div>
   </div>
 
-  <div class="images_part">
-    <div class ="guide_half_1">
-        <div class="guide_half_left">
-        </div>
-        <div class="guide_half_lef">
+  <div class="image-part">
+    <div class ="image_row">
+        <div class="image_text">
+          <div class="guide_image">
+              <img style="width: 100%" src="assets/guide_1.png" alt="The Week"/>
+          </div>  
+          <div class="guide_text">
+            <img style="width: 10%" src="assets/guide_number_1.png" alt="The Week"/>
+            Dip the test strip in urine for 15 seconds.
+          </div> 
+        </div> 
+        <div class="image_text">
+          <div class="guide_image">
+              <img style="width: 100%" src="assets/guide_2.png" alt="The Week"/>
+          </div>  
+          <div class="guide_text">
+            <img style="width: 10%" src="assets/guide_number_2.png" alt="The Week"/>
+           Attach the Inito Fertility Monitor to your iPhone*.
+          </div> 
         </div>      
-
+    </div>
+    <div class ="image_row">
+        <div class="image_text">
+          <div class="guide_image">
+              <img style="width: 100%" src="assets/guide_3.png" alt="The Week"/>
+          </div>  
+          <div class="guide_text">
+            <img style="width: 10%" src="assets/guide_number_3.png" alt="The Week"/>
+            Insert the test strip into the Inito Fertility Monitor.
+          </div> 
+        </div> 
+        <div class="image_text">
+          <div class="guide_image">
+              <img style="width: 100%" src="assets/guide_4.png" alt="The Week"/>
+          </div>  
+          <div class="guide_text">
+            <img style="width: 10%" src="assets/guide_number_4.png" alt="The Week"/>
+            Get personalized results on our App in 10 minutes.
+          </div> 
+        </div>       
     </div> 
-    <div class ="guide_half_2">
-
-    </div>   
+      
   </div>
 </div>
 
 <style>
+  .text-component4{
+      width:45%;
+      margin-left:auto;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap:2rem;
+    }
     .images_part{
         display:flex;
         flex-direction:column;
+        justify-content:center;
+        align-items:center;
     }
-    .guide_half_1{
+    .image_row{
         display:flex;
+        justify-content:center;
+        align-items:center;
+
     }
-    .guide_half_2{
-        display:flex;
+    .image_text{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+        align-items:center;
+        gap:1rem;
     }
+    .guide_text{
+      text-align:center;
+      font-family: "Montserrat", sans-serif;
+      font-weight:500;
+      font-size:15px;
+      color: rgba(17, 45, 53, 1);
+    }
+     @media screen and (max-width: 1025px) {
+          .half4{
+            width:90%
+          }
+          .guide_text{
+            font-size:10px;
+          }
+          .image_row{
+            gap:1rem;
+          }
+
+      }
+      @media screen and (max-width: 645px) {
+          .half4{
+            flex-direction:column;
+
+            
+          }
+          .image_part{
+            width:90%;
+          }
+          .image_row{
+             flex-direction:column;
+             width:100%;
+             gap:1rem;
+          }
+          .image_text{
+            width:100%%
+          }
+          .text-component4{
+            width:100%;
+          }
+
+      }
+
 
 </style>    
 
