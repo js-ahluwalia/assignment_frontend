@@ -1,15 +1,18 @@
 <div class="rectangle">
   <div class="half1">
     <div class="ovulation_confirmed">
-      <img
-        style="width: 100%"
-        src="assets/ovulation_confirmed_iphone.png"
-        alt="The Week"
-      />
+      <img style="width: 100%" src="assets/ovulation_confirmed_iphone.png" alt="The Week"/>
     </div>
     <div class="text-component">
       <div class="text1">
-        Predict and confirm your ovulation with actual data
+        Predict and confirm your ovulation with 
+        <div class="text-wrapper">
+          <span class="actual-text">actual</span>
+          <div class="actual-underline">
+            <img style="width: 100%" src="assets/actual_underline.png" alt="underline"/>
+          </div>
+          data
+        </div>
       </div>
       <div class="text2">
         Unlike most ovulation tests that only give you "yes/no" results, Inito
@@ -20,11 +23,7 @@
         If you have irregular cycles, actual data is necessary to know exactly
         when you ovulate, and when is the best time to try to conceive.
       </div>
-      <button
-        type="button"
-        class="btn btn-primary btn-pill"
-        style="font-weight: 600"
-      >
+      <button type="button" class="btn btn-primary btn-pill" style="font-weight: 600">
         Get the Inito Kit
       </button>
     </div>
@@ -39,41 +38,25 @@
       <div class="text4">
         <div class="text_tick">
           <div class="tick_class">
-            <img
-              style="width: 100%"
-              src="assets/green_tick.png"
-              alt="The Week"
-            />
+            <img style="width: 100%" src="assets/green_tick.png" alt="The Week"/>
           </div>
           <div>Estrogen, which rises 3-4 days before ovulation</div>
         </div>
         <div class="text_tick">
           <div class="tick_class">
-            <img
-              style="width: 100%"
-              src="assets/purple_tick.png"
-              alt="The Week"
-            />
+            <img style="width: 100%" src="assets/purple_tick.png" alt="The Week"/>
           </div>
           <div>LH, which surges 24-36 hours before ovulation</div>
         </div>
         <div class="text_tick">
           <div class="tick_class">
-            <img
-              style="width: 100%"
-              src="assets/blue_tick.png"
-              alt="The Week"
-            />
+            <img style="width: 100%" src="assets/blue_tick.png" alt="The Week"/>
           </div>
           <div>PdG, which rises after ovulation</div>
         </div>
         <div class="text_tick">
           <div class="tick_class">
-            <img
-              style="width: 100%"
-              src="assets/orange_tick.png"
-              alt="The Week"
-            />
+            <img style="width: 100%" src="assets/orange_tick.png" alt="The Week"/>
           </div>
           <div>FSH, to track follicle growth</div>
         </div>
@@ -84,3 +67,34 @@
     </div>
   </div>
 </div>
+
+<style>
+.text1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.text-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.actual-text {
+  display: inline-block;
+}
+
+.actual-underline {
+  position: absolute;
+  width: 100%;
+  left: -3rem;
+  bottom: -1.2rem; 
+  text-align: center;
+}
+
+.actual-underline img {
+  width: 100%;
+  max-width: 8rem; 
+}
+</style>
